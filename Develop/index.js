@@ -1,4 +1,4 @@
-// Added node mods
+// Added modules to enable interaction with the file system
 const fs = require('fs')
 const inquirer = require('inquirer')
 
@@ -39,19 +39,12 @@ function init() {
             }
         ])
         .then((answers) => {
-            const userInput = question(answers);
-            console.log(userInput)
-        }
-        )
+            // function to create README file
+            fs.writeFile('README.md', JSON.stringify([answers]), (err)=> {
+                err ? console.error(err) : console.log('README is generated!')
+            })
+        })
 }
-
-// TODO: Create an array of questions for user input
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) { }
-
-// TODO: Create a function to initialize app
-// function init() { }
 
 // Function call to initialize app
 init();
