@@ -33,6 +33,11 @@ async function init() {
             },
             {
                 type: 'input',
+                name: 'license',
+                message: 'What licenses were used?'
+            },
+            {
+                type: 'input',
                 name: 'contribution',
                 message: 'List contributors (if any).'
             },
