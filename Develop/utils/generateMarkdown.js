@@ -45,11 +45,7 @@ const licenseData = {
         link: '[The Unlicense](https://opensource.org/licenses/unlicense)',
         section: 'This project is licensed under The Unlicense - see the [Unlicense](LICENSE) file for details.'
     },
-    custom: {
-        badge: '', // Add your custom badge URL here
-        link: '',  // Add your custom license link here
-        section: 'This project is licensed under the Custom License - see the [LICENSE](LICENSE) file for details.'
-    }
+
 }  
 // Function returns the license badge (if any)
 function renderLicenseBadge(license) {
@@ -70,23 +66,45 @@ function renderLicenseSection(license) {
 // Function to generate markdown for README
 function generateMarkdown(data) {
 
-  const{title,description,license}=data //data is intializer
+  const{title, description, license, installation,usage,contribution, tests,questions,question}=data //data is intializer
   return `# ${title}
-  ------------------
-  ## Description
-
-  ${description}
-  ------------------
-
-  ## License 
-
   ${renderLicenseBadge(license)}
-  -------------------
-  ${renderLicenseLink(license)}
-  -------------------
-  ${renderLicenseSection(license)}
-  -------------------
-  `;
-}
+  
+  ## Description
+  
+  ${description}
+  
+  ## Table of Contents
+  
+  [Installation](#Installtion)
+  [Usage Instructions](#Usage)
+  [License](#License)
+  [Contribution](#Contributions)
+  [Test Instruction](#Tests)
+  [Questions](#Questions)
+  
+  ## Installation
+  
+  ${installation}
+  
+  ## Usage
+  
+  ${usage}
+  
+  ## Contributions
+  
+  ${contribution}
+  
+  ## Tests
+  
+  ${tests}
+
+  ## Questions
+  ${questions} - click to view GitHub
+  
+  For further questions, contact me via email:${question}
+  
+  ${renderLicenseSection(license)}`;
+  }
 
 module.exports = generateMarkdown;

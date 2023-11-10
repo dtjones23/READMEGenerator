@@ -32,9 +32,10 @@ async function init() {
                 message: 'Describle usage information'
             },
             {
-                type: 'input',
+                type: 'list',
                 name: 'license',
-                message: 'What licenses were used?'
+                message: 'What licenses were used?',
+                choices: ['mit','apache','gpl','bsd','mpl','isc','agpl','wtfpl','unlicensed']
             },
             {
                 type: 'input',
@@ -45,7 +46,18 @@ async function init() {
                 type: 'input',
                 name: 'tests',
                 message: 'Explain the test instructions?'
+            },
+            {
+                type: 'username',
+                name: 'questions',
+                message: 'Enter Github username?',
+            },
+            {
+                type: 'input',
+                name: 'question',
+                message: 'Enter your email?',
             }
+            
         ])
 
         // Import for answers
