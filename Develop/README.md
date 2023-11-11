@@ -1,38 +1,43 @@
-# GREAT
-  ![License](https://img.shields.io/badge/license-BSD%203--Clause-blue)
+# README Generator
+  ![License](https://img.shields.io/badge/license-AGPL%20v3-blue)
   
   ## Description
   
-  A GOOD ONE
+  A really good one
   
   ## Table of Contents
   
-  [Installation](#Installtion)
-  [Usage Instructions](#Usage)
-  [License](#License)
-  [Contribution](#Contributions)
-  [Test Instruction](#Tests)
-  [Questions](#Questions)
+  - [Installation](#installation)
+
+  - [Usage Instructions](#usage)
+
+  - [GNU Affero General Public License v3.0](https://opensource.org/licenses/AGPL-3.0)
+
+  - [Contribution](#contributions)
+
+  - [Test Instruction](#tests)
+
+  - [Questions](#questions)
   
   ## Installation
   
-  ALOT OF THEM
+  None
   
   ## Usage
   
-  YOU USE IT
+  Make a readme really fast
   
   ## Contributions
   
-  NONE
+  none
   
   ## Tests
   
-  JUST GOTTA DO IT
+  none
 
   ## Questions
-  IDUNNO - click to view GitHub
+  Click to view GitHub profile: https://github.com/dtjones23
   
-  For further questions, contact me via email:deangelojones0708@gmail.com
+  For further questions, contact me via email: DeAngeloJones0708@gmail.com
   
-  This project is licensed under the BSD 3-Clause License - see the [BSD 3-Clause License](LICENSE) file for details.
+  This project is licensed under the GNU Affero General Public License v3.0 - see the [GNU AGPL v3.0](LICENSE) file for details.
