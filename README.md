@@ -11,7 +11,7 @@ This project grants a user the ability to create a README file using a professio
 
 ## Screenshot
 `
-![alt-image](/Develop/image/Screen%20Shot%202023-11-11%20at%2012.54.40%20PM.png)
+![image](/Develop/image/Screen%20Shot%202023-11-11%20at%2012.54.40%20PM.png)
 `
 
 ## Credits
