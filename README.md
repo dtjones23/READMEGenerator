@@ -10,9 +10,8 @@ This project grants a user the ability to create a README file using a professio
 - after completion, a README will have been added to the folder for use
 
 ## Screenshot
-`
-![image](/Develop/image/Screen%20Shot%202023-11-11%20at%2012.54.40%20PM.png)
-`
+
+`![Alt text](<Develop/image/Screen Shot 2023-11-11 at 12.54.40 PM.png>)`
 
 ## Credits
 - None
